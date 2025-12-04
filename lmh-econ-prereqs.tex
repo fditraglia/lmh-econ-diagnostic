@@ -1,8 +1,8 @@
-\documentclass[addpoints,12pt,a4paper]{exam}
+\documentclass[addpoints,12pt,a4paper,landscape]{article}
 \usepackage{amsmath, amssymb}
 \usepackage[T1]{fontenc}
-\boxedpoints
-\pointsinmargin
+%\boxedpoints
+%\pointsinmargin
 
 \usepackage{datetime2}
 \usepackage{bbm}
@@ -12,7 +12,7 @@
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
-\usepackage[margin=1in]{geometry}
+\usepackage[left=0.8in,right=0.8in,top=0.8in,bottom=0.8in]{geometry}
 \usepackage{enumitem}
 \usepackage{array}     
 \usepackage{booktabs}
@@ -22,6 +22,7 @@
 \hypersetup{colorlinks=true}
 
 \renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\arraystretch}{1.35}
 
 
 \begin{document}
@@ -29,14 +30,39 @@
 
 \begin{center}
 
-  \textsc{\Large Economics Course Prerequisites \\ \normalsize Lady Margaret Hall Visiting Student Program \\ \vspace{0.5em} Version: \DTMtoday, \DTMcurrenttime}
+  \textsc{\Large Economics Course Prerequisites \\ \medskip \normalsize Lady Margaret Hall Visiting Student Program \\ \vspace{0.5em} Version: \DTMtoday, \DTMcurrenttime}
 
-  \vspace{1em}
+  \vspace{1ex}
 
   \href{https://raw.githubusercontent.com/fditraglia/lmh-econ-diagnostic/main/lmh-econ-prereqs.pdf}{\underline{Click here for latest version}}
 
-\vspace{5em}
+\vspace{1em}
 
+\end{center}
+
+
+\begin{center}
+    \begin{tabular}{p{0.4cm}p{5cm}p{18cm}}
+      \multicolumn{2}{p{5.5cm}}{\textbf{LMH/Oxford Prerequisite}}   &  \textbf{Notes on US equivalents}\\ \hline
+
+A	& Calculus for Economics	& Any calculus course that covers basic integration, partial differentiation, constrained optimisation and the implicit function theorem (informally).\\
+
+B	& \raggedright Introductory Probability \& Statistics	& A one-semester course, possibly called \emph{Statistics for Economics} or \emph{Statistics for Economics and Business} that satisfies the home university's prerequisite for \emph{Econometrics}.\\
+
+C	& Econometrics	& \emph{Introductory Econometrics}, \emph{Econometrics} or \emph{Applied Econometrics} depending on the university.\\
+
+D	& Micro Theory I	& \emph{Intermediate Micro (with calculus)} OR \emph{Intermediate Micro} PLUS \emph{Calculus for Economics}. At some universities (but very few)  \emph{Principles of Microeconomics} may reach the required level.  Students should submit a detailed syllabus for review if they wish their Principles course, or another course, to be considered.\\
+
+E	& Micro Theory II	& \emph{Advanced Microeconomics}. At some universities (but very few)  \emph{Intermediate Microeconomics} or \emph{Microeconomic Theory} may reach the required level.  Students should submit a detailed syllabus for review if they wish their Intermediate course, or another course, to be considered. \\
+
+F	& \raggedright Introduction to Game Theory	&  Any \emph{Microeconomic Theory} or \emph{Game Theory} course that covers non-cooperative game theory with discrete and continuous actions, simultaneous, sequential and repeated games and solution concepts including dominance, Nash equilibrium and subgame perfect equilibrium. \\
+
+G	& Macro Theory I	& \emph{Intermediate Macro (with calculus)} OR \emph{Intermediate Macro} PLUS \emph{Calculus for Economics}. At some universities (but very few) \emph{Principles of Macroeconomics} may reach the required level.  Students should submit a detailed syllabus for review if they wish their Principles course, or another course, to be considered.\\
+
+H	&  Macro Theory II	& \emph{Advanced Macroeconomics}. 
+At some universities (but very few)  \emph{Intermediate Macroeconomics} or \emph{Macroeconomic Theory} may reach the required level.  Students should submit a detailed syllabus for review if they wish their Intermediate course, or another course, to be considered.
+
+\end{tabular}
 \end{center}
 
 \end{document}
